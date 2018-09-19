@@ -1,0 +1,18 @@
+<div *ngIf="this.article">
+
+  <div class="grandeboite">
+    <div class="Titre"> {{this.title()}}</div>
+    <div class="content"> {{this.content()}}</div>
+    <div class="author"> by {{this.author()}}</div>
+    <div class="buttonDetails">
+       <button class="details" routerLink="/article/{{this.id()}}">Detail</button>
+    </div>
+    <div class="id">article n {{this.id()}}</div>
+
+
+      <div class="buttonDelete">
+         <button class="button" (click)="delete()">Supprimer</button>
+      </div>
+  </div>
+
+</div>

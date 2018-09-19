@@ -1,0 +1,47 @@
+h2 {
+  font-size: 30px;
+  font-family: "Courier New";
+  color: darkred;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+h3 {
+  font-size: 25px;
+  font-family: "Arial Black";
+  color: black;
+  font-style: oblique;
+  margin-left: 25px;
+}
+
+h4 {
+  font-size: 18px;
+  font-family: "Arial Black";
+  color: black;
+  margin-left: 10px;
+}
+
+.button{
+  padding:15px 12px 6px 0;
+  font:bold 13px Arial;
+  background:darkgray;
+  color: black;
+  border-radius:2px;
+  margin-top: 15px;
+  width:100px;
+  border:1px solid black;
+}
+
+.btn btn-success{
+
+  width: 225px;
+  height: 50px;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 4px;
+  font-size: 22px;
+  font-family: "New Century" ;
+  cursor: pointer;
+  display: inline-block;
+}
