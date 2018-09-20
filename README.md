@@ -1,6 +1,6 @@
 # SimpleApp
 
-This project was my first angular Project, It use angular, TypeScript, html and CSS. It's an application wher you can display your article, you can add new one and delete the one you don't want to be on your website. You can also go to the details and you will have a bigger description of the article.
+This project was my first angular Project, I use angular, TypeScript, html and CSS. It's an application where you can display your article, you can add new one and delete the one you don't want to be on your website. You can also go to the details and you will have a bigger description of the article.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
