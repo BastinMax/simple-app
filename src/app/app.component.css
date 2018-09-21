@@ -1,26 +1,56 @@
+.GlobalBox{
+  width: 850px;
+  height: 75px;
+  margin-top: 40px;
+}
+
+#global{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.btn-outline-secondary{
+  margin-left: 150px;
+  font-size: 25px;
+}
+
+
+
 .NewArticle {
-  width: 225px;
+  width: 275px;
   height: 50px;
+  margin-left: 150px;
   text-align: center;
   font-weight: bold;
   padding-top: 4px;
-  font-size: 22px;
+  font-size: 25px;
   font-family: "New Century" ;
   cursor: pointer;
   display: inline-block;
 }
 
 .ListArticle {
-  width: 225px;
+  width: 275px;
   height: 50px;
-  margin-left: 20px;
+  margin-left: 40px;
   text-align: center;
   font-weight: bold;
   padding-top: 4px;
-  font-size: 22px;
+  font-size: 25px;
   font-family: "New Century" ;
   cursor: pointer;
   display: inline-block;
+}
+
+.TitleApplication{
+  width: 850px;
+  text-align: center;
+  height: 50px;
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: bold;
+  font-family: Impact;
 }
 
 

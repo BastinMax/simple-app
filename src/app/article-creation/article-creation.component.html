@@ -1,23 +1,37 @@
 
+<div class="BigForm">
+
 <h2>Article</h2>
 <h3><i>Create your article</i></h3>
 <form [formGroup]="articleForm" (ngSubmit)="createArticle(this.articleForm.value)">
   <div class="form-group">
-    <label class="center-block"><h4>title:</h4>
-      <input class="form-control" formControlName="title">
-    </label>
-    <br />
-    <label class="center-block"><h4>content:</h4>
-      <textarea class="form-control" formControlName="content"></textarea>
-    </label>
-    <br />
-    <label class="center-block"><h4>authors:</h4>
-      <input class="form-control" formControlName="author">
-    </label>
-    <br />
-    <button class="btn btn-success" [disabled]="articleForm.invalid" type="submit"><div class="button"> Save</div></button>
+    <div class="InsideForm">
+       <label class="center-block"><h4>Title :</h4>
+          <input class="form-control" formControlName="title" placeholder="Enter Your title" required>
+       </label>
+       <br />
+        <label class="center-block"><h4>Content :</h4>
+           <textarea class="form-control" formControlName="content" placeholder="Content"></textarea>
+        </label>
+        <br />
+         <label class="center-block"><h4>Authors :</h4>
+             <input class="form-control" formControlName="author" placeholder="Authors">
+         </label>
+        <br />
+    </div>
+    <div *ngIf="articleForm.valid"><h1>Click on the save button to add your aticle</h1></div>
+
+       <div class="espaceButton"></div>
+
+         <button type="button" class="btn btn-danger" routerLink="/articles">Cancel</button>
+
+        <button type="submit" class="btn btn-success" [disabled]="articleForm.invalid" > Save</button>
+
+
   </div>
 </form>
+
+</div>
 
 
 

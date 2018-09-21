@@ -3,7 +3,13 @@ h2 {
   font-family: "Courier New";
   color: darkred;
   font-weight: bold;
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-top: 55px;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: "New Century";
 }
 
 h3 {
@@ -11,37 +17,62 @@ h3 {
   font-family: "Arial Black";
   color: black;
   font-style: oblique;
-  margin-left: 25px;
+  margin-left: 45px;
+  text-decoration: underline;
 }
 
 h4 {
   font-size: 18px;
   font-family: "Arial Black";
   color: black;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
-.button{
-  padding:15px 12px 6px 0;
-  font:bold 13px Arial;
-  background:darkgray;
+.BigForm{
+  width: 500px;
+  height: 650px;
+  margin-left: 175px;
+  background: antiquewhite;
+}
+
+.InsideForm{
+  width: 350px;
+  height: 325px;
+  margin-left: 80px;
+}
+
+.btn-danger{
+  margin-left: 200px;
+}
+
+.btn-success{
+  margin-left: 50px;
+}
+
+.cancel{
+  padding:10px 5px 10px 5px;
+  font:bold 15px Arial;
+  background: snow;
   color: black;
+  margin-left: 100px;
   border-radius:2px;
   margin-top: 15px;
-  width:100px;
-  border:1px solid black;
+  width:150px;
+  border:2px solid red;
+  cursor: pointer;
 }
 
-.btn btn-success{
 
-  width: 225px;
+.espaceButton{
+  width: 500px;
   height: 50px;
-  margin-left: 20px;
-  text-align: center;
-  font-weight: bold;
-  padding-top: 4px;
-  font-size: 22px;
-  font-family: "New Century" ;
-  cursor: pointer;
-  display: inline-block;
+}
+
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid red;
+}
+
+.ng-valid:not(form) {
+  border-left: 5px solid green;
 }

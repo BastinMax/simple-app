@@ -9,6 +9,7 @@ import { ArticleComponent } from "./article/article.component";
 import { ArticlesComponent } from "./articles/articles.component";
 import {ArticleService} from "./article.service";
 import { ArticleCreationComponent } from "./article-creation/article-creation.component";
+import { SearchComponent } from './search/search.component';
 
 
 const appRoutes: Routes = [
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     AppComponent,
     ArticleComponent,
     ArticlesComponent,
-    ArticleCreationComponent
+    ArticleCreationComponent,
+    SearchComponent
   ],
   imports: [
     RouterModule.forRoot(

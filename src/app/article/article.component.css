@@ -7,7 +7,8 @@ h3 {
 
 .grandeboite {
   margin-top: 25px;
-  width: 400px;
+  width: 850px;
+  background: antiquewhite;
   height: 250px;
   display: inline-block;
   border-style: solid;
@@ -18,16 +19,17 @@ h3 {
   margin-top: 10px;
   font-size: 28px;
   color: black;
-  text-align: center;
-  width: 399px;
+  text-align: left;
+  width: 845px;
+  margin-left: 25px;
   color: red;
   display: inline-block;
 }
 .content{
-  margin-top: 10px;
-  width: 380px;
-  height: 100px;
-  margin-left: 5px;
+  margin-top: 15px;
+  width: 800px;
+  height: 125px;
+  margin-left: 35px;
   font-size: 22px;
   text-align: justify;
   color: black;
@@ -36,6 +38,7 @@ h3 {
 .author{
   width: 150px;
   height: 50px;
+  margin-top: 5px;
   color: black;
   margin-left: 30px;
   font-size: 20px;
@@ -45,9 +48,9 @@ h3 {
 .details{
   font-family: Arial;
   font-weight: bold;
-  background-color: #eee;
+  background-color: lightsteelblue;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 15px 10px 15px;
   font-size: 15px;
   border-radius: 4px;
   cursor: pointer;
@@ -59,7 +62,7 @@ h3 {
   font-weight: bold;
   background-color: red;
   border: none;
-  padding: 5px 10px;
+  padding: 10px 15px 10px 15px;
   font-size: 15px;
   border-radius: 4px;
   cursor: pointer;
@@ -84,5 +87,5 @@ h3 {
   width: 75px;
   height: 25px;
   display: inline-block;
-  margin-left: 75px;
+  margin-left: 425px;
 }

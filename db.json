@@ -4,37 +4,43 @@
       "title": "Angular component",
       "content": "Angular looks awesome! but it is complicated I can't figure how to display an article without refreshing the page",
       "author": "Orangefire",
+      "hashtag": "info",
+      "id": 1
+    },
+    {
+      "title": "Angular component",
+      "content": "Angular looks awesome! but it is complicated I can't figure how to display an article without refreshing the page",
+      "author": "Orangefire",
+      "hashtag": "maths",
       "id": 2
+    },
+    {
+      "title": "Angular component",
+      "content": "Angular looks awesome! but it is complicated I can't figure how to display an article without refreshing the page",
+      "author": "Orangefire",
+      "hashtag": "physique",
+      "id": 3
+    },
+    {
+      "title": "Angular component",
+      "content": "Angular looks awesome! but it is complicated I can't figure how to display an article without refreshing the page",
+      "author": "Orangefire",
+      "hashtag": "animaux",
+      "id": 4
+    },
+    {
+      "title": "Angular component",
+      "content": "Angular looks awesome! but it is complicated I can't figure how to display an article without refreshing the page",
+      "author": "Orangefire",
+      "hashtag": "info",
+      "id": 5
     },
     {
       "title": "Angular component",
       "content": "Angular looks awesome!",
       "author": "Orangefire",
-      "id": 4
-    },
-    {
-      "title": "Fake Title",
-      "content": "lele",
-      "author": "lele",
-      "id": 5
-    },
-    {
-      "title": "Fake Title",
-      "content": "lele",
-      "author": "lele",
-      "id": 7
-    },
-    {
-      "title": "Titre de votre article",
-      "content": "htrhr",
-      "author": "hrt",
-      "id": 17
-    },
-    {
-      "title": "Titre de votre article",
-      "content": "frefe",
-      "author": "fere",
-      "id": 18
+      "hashtag": "science",
+      "id": 6
     }
   ]
 }

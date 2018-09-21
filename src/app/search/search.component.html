@@ -1,0 +1,6 @@
+
+<nav class="navbar navbar-light bg-light">
+  <form [formGroup]="articleForm" (keyup)="this.searchBar(this.articleForm.value)">
+  <input class="form-control mr-sm-2" formControlName="search" placeholder="Search" aria-label="Search">
+  </form>
+</nav>

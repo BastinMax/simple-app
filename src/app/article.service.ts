@@ -27,5 +27,9 @@ export class ArticleService {
     return this.http.get<Article>("http://localhost:3000/articles/" + idDetails);
   }
 
+  public search(searchText: string): Observable<Article[]> {
+    return this.http.get<Article[]>("http://localhost:3000/articles/?q=" + searchText);
+  }
+
 
 }

@@ -2,6 +2,8 @@ import {Component, EventEmitter, OnInit, Output} from "@angular/core";
 import {ArticleService} from "../article.service";
 import {Article} from "../article";
 
+type Articles = Article[];
+
 
 @Component({
   selector: "app-articles",
@@ -10,7 +12,7 @@ import {Article} from "../article";
 })
 export class ArticlesComponent implements OnInit {
 
-  public articleList: Article[];
+  public articleList: Articles;
   @Output()
   articleAd: EventEmitter<Article> = new EventEmitter();
 
@@ -22,7 +24,6 @@ export class ArticlesComponent implements OnInit {
   ngOnInit() {
     this.articleService.getArticles()
       .subscribe(data => this.articleList = data);
-
   }
 
   public deleteArticle(article: Article): void {
@@ -30,6 +31,10 @@ export class ArticlesComponent implements OnInit {
       .subscribe(() => {
         this.articleList = this.articleList.filter(art => art.id !== article.id);
       });
+  }
+
+  public updateArticles(listArticle: Articles): void {
+    this.articleList = listArticle;
   }
 
 

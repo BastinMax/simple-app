@@ -19,10 +19,11 @@ export class ArticleCreationComponent implements OnInit {
   constructor(private fb: FormBuilder, private articleService: ArticleService) {
 
     this.articleForm = this.fb.group({
-      title: ["Titre de votre article", Validators.required],
+      title: ["", Validators.required],
       content: ["", Validators.required],
       author: ["", Validators.required],
     });
+
   }
 
   ngOnInit() {
@@ -32,12 +33,14 @@ export class ArticleCreationComponent implements OnInit {
   createArticle(rawArticle: RawArticle) {
     this.articleService.postArticle(rawArticle)
       .subscribe(idArticleCreated => {
-        this.addedArticle({ title : rawArticle.title, author: rawArticle.author, content: rawArticle.content, id: idArticleCreated});
+        this.addedArticle({ title : rawArticle.title, author: rawArticle.author, content: rawArticle.content, hashtag: rawArticle.hashtag, id: idArticleCreated});
      });
   }
 
   addedArticle(article: Article) {
     this.addArticle.emit(article);
   }
+
+
 
 }

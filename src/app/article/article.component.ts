@@ -17,6 +17,9 @@ export class ArticleComponent implements OnInit {
   deletedArticle: EventEmitter<Article> = new EventEmitter();
   articles$: Observable<Article>;
 
+  search = new EventEmitter();
+
+
   constructor(
     private route: ActivatedRoute,
     private router: Router,
@@ -29,6 +32,7 @@ export class ArticleComponent implements OnInit {
   delete() {
     this.deletedArticle.emit(this.article);
   }
+
 
   public title(): string {
     return this.article.title;
@@ -45,6 +49,12 @@ export class ArticleComponent implements OnInit {
   public id(): number {
     return this.article.id;
   }
+
+  public hashtag(): string {
+    return this.article.hashtag;
+  }
+
+
 
   ngOnInit() {
     if (!this.article) {

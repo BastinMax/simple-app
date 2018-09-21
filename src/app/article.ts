@@ -3,4 +3,5 @@ export interface Article {
   content: string;
   author: string;
   id: number;
+  hashtag: string;
 }
