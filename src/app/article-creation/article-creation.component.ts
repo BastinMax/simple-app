@@ -33,7 +33,7 @@ export class ArticleCreationComponent implements OnInit {
   createArticle(rawArticle: RawArticle) {
     this.articleService.postArticle(rawArticle)
       .subscribe(idArticleCreated => {
-        this.addedArticle({ title : rawArticle.title, author: rawArticle.author, content: rawArticle.content, hashtag: rawArticle.hashtag, id: idArticleCreated});
+        this.addedArticle({ title : rawArticle.title, author: rawArticle.author, content: rawArticle.content, id: idArticleCreated});
      });
   }
 

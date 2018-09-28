@@ -50,10 +50,6 @@ export class ArticleComponent implements OnInit {
     return this.article.id;
   }
 
-  public hashtag(): string {
-    return this.article.hashtag;
-  }
-
 
 
   ngOnInit() {
